@@ -64,7 +64,6 @@ class Dinosaur(Sprite):
             self.dino_jump = False
             self.jump_vel = self.JUMP_VEL
         
-        print(self.dino_rect.y)
 
     def duck(self):
         self.image = DUCKING [0]
